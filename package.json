@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Sport App UIWizard Back with node.js and MongoDB",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/akaanuzman/sport_app_uiwizard.git"
   },
   "author": "",
