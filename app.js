@@ -1,13 +1,12 @@
 import express from "express";
-import path from "path";
-import { fileURLToPath } from 'url';
 import dotenv from "dotenv";
+import connectDB from "./src/helpers/db/db.js";
 import router from "./src/routes/index.js";
 import invalid from "./src/routes/invalid.js";
 
-
 dotenv.config({ path: './src/config/.env' });
 
+connectDB();
 const port = process.env.PORT || 3001;
 const app = express();
 
