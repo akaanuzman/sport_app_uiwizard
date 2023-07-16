@@ -1,4 +1,4 @@
-# 💻 Stack Overflow Rest API
+# 💻 Sport App Rest API
 
 ## 📁 Description
 Hello everyone! This project is referenced to [this](https://github.com/HardwareAndro/sport_app_uiwizard/issues/2) issue. The project was written in node.js and with MongoDB Database.
